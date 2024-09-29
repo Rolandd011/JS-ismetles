@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="ismetles.js"></script>
+    <title>JS feladatok</title>
+    <style>
+        body { font-family: Arial, sans-serif; }
+        .task { margin-bottom: 20px; }
+        .output { font-weight: bold; margin-top: 10px; }
+    </style>
+</head>
+<body>
+    <h1>JS ismétles feladatok</h1>
+
+    <!-- Task 1 -->
+    <div class="task">
+        <h2>Task 1: Cuboid Surface Area and Volume</h2>
+        <p>Set sides to 10.4, 13.5, 8.2</p>
+        <button onclick="calculateCuboid()">Calculate</button>
+        <div class="output" id="task1Output"></div>
+    </div>
+
+    <!-- Task 2 -->
+    <div class="task">
+        <h2>Task 2: Remaining Seconds in a Day</h2>
+        <button onclick="calculateRemainingSeconds()">Calculate</button>
+        <div class="output" id="task2Output"></div>
+    </div>
+
+    <!-- Task 3 -->
+    <div class="task">
+        <h2>Task 3: Body Mass Index (BMI)</h2>
+        <p>Set mass to 81.2 kg and height to 1.78 m</p>
+        <button onclick="calculateBMI()">Calculate</button>
+        <div class="output" id="task3Output"></div>
+    </div>
+
+    <!-- Task 4 -->
+    <div class="task">
+        <h2>Task 4: Grade Based on Score</h2>
+        <input type="number" id="scoreInput" placeholder="Enter score" />
+        <button onclick="getGrade()">Get Grade</button>
+        <div class="output" id="task4Output"></div>
+    </div>
+
+    <!-- Task 5 -->
+    <div class="task">
+        <h2>Task 5: Leap Year Checker</h2>
+        <input type="number" id="yearInput" placeholder="Enter year" />
+        <button onclick="checkLeapYear()">Check Leap Year</button>
+        <div class="output" id="task5Output"></div>
+    </div>
+
+    <!-- Task 6 -->
+    <div class="task">
+        <h2>Task 6: Rock, Paper, Scissors Game</h2>
+        <p>1 = Rock, 2 = Paper, 3 = Scissors</p>
+        <input type="number" id="player1" placeholder="Player 1" />
+        <input type="number" id="player2" placeholder="Player 2" />
+        <button onclick="playGame()">Play</button>
+        <div class="output" id="task6Output"></div>
+    </div>
+
+    <!-- Task 7 -->
+    <div class="task">
+        <h2>Task 7: Print Letters of a String</h2>
+        <input type="text" id="stringInput" placeholder="Enter string" />
+        <button onclick="printLetters()">Print Letters</button>
+        <div class="output" id="task7Output"></div>
+    </div>
+
+    <!-- Task 8 -->
+    <div class="task">
+        <h2>Task 8: Factorial of a Number</h2>
+        <input type="number" id="factorialInput" placeholder="Enter number" />
+        <button onclick="calculateFactorial()">Calculate Factorial</button>
+        <div class="output" id="task8Output"></div>
+    </div>
+
+    <!-- Task 9 -->
+    <div class="task">
+        <h2>Task 9: Average of Digits</h2>
+        <input type="number" id="digitInput" placeholder="Enter number" />
+        <button onclick="averageDigits()">Calculate Average</button>
+        <div class="output" id="task9Output"></div>
+    </div>
+
+    <!-- Task 10 -->
+    <div class="task">
+        <h2>Task 10: Draw a Square with Diagonal</h2>
+        <input type="number" id="squareSize" placeholder="Enter square size" />
+        <button onclick="drawSquare()">Draw Square</button>
+        <pre id="task10Output"></pre>
+    </div>
+
+    <!-- Task 11 -->
+    <div class="task">
+        <h2>Task 11: Print Letters Until Non-Letter</h2>
+        <input type="text" id="letterString" placeholder="Enter string" />
+        <button onclick="printUntilNonLetter()">Print Letters</button>
+        <div class="output" id="task11Output"></div>
+    </div>
+
+    <!-- Task 12 -->
+    <div class="task">
+        <h2>Task 12: Print Numbers (Skip Divisible by 3 in Sequence)</h2>
+        <button onclick="printSkippedNumbers()">Print Numbers</button>
+        <div class="output" id="task12Output"></div>
+    </div>
+
+    <!-- Task 13 -->
+    <div class="task">
+        <h2>Task 13: Divisors of Numbers from 10 to 30</h2>
+        <button onclick="printDivisors()">Print Divisors</button>
+        <pre id="task13Output"></pre>
+    </div>
+
+    <!-- Task 14 -->
+    <div class="task">
+        <h2>Task 14: FizzBuzz</h2>
+        <button onclick="fizzBuzz()">Play FizzBuzz</button>
+        <div class="output" id="task14Output"></div>
+    </div>
+</body>
+</html>
+
